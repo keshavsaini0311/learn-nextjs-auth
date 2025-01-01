@@ -15,7 +15,7 @@ function page  ()  {
   const onlogin = async () => {
     try {
       const res=await axios.post("/api/users/login", user); 
-      router.push(`/profile/${res.data.user._id}`); 
+      router.push(`/`); 
     } catch (error) {
       console.log(error);
     }

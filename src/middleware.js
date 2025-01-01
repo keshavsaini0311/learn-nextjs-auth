@@ -19,6 +19,8 @@ export const config = {
         "/",
         "/profile/:id*",
         "/profile",
+        "/room/:id*",
+        "/room",
         "/login",
         "/signup",
     ]
